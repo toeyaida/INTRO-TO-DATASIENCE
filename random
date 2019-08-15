@@ -1,0 +1,10 @@
+import random 
+listnum=['1','2','3','4','5','6','7','8','9','10','J','Q','K','A']
+listnum2=['spade','heart','club','diamond']
+listrand = []
+s = ''
+for i in range(3):
+    s = random.choice(listnum)
+    s = s+' '+random.choice(listnum2)
+    listrand.append(s)
+print(listrand)
